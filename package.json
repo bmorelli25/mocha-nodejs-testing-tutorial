@@ -1,0 +1,19 @@
+{
+  "name": "mocha-nodejs-testing-tutorial",
+  "version": "1.0.0",
+  "description": "mocha nodejs testing tutorial",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmorelli25/mocha-nodejs-testing-tutorial.git"
+  },
+  "author": "brandon morelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmorelli25/mocha-nodejs-testing-tutorial/issues"
+  },
+  "homepage": "https://github.com/bmorelli25/mocha-nodejs-testing-tutorial#readme"
+}
