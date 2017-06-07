@@ -1,5 +1,3 @@
-// First test
-// Testing if -1 equals the indexOf(..) method
 let convert = require('../app.js')
 
 var assert = require('assert');
@@ -13,6 +11,17 @@ describe('Temperature Conversion', function() {
     });
     it('should return undefined if no temperature is input', function() {
       assert.equal(undefined, convert.cToF());
+    });
+  });
+  describe('fToC', function() {
+    it('should convert -40 fahrenheit to -40 celsius', function() {
+      assert.equal(-40, convert.fToC(-40));
+    });
+    it('should convert 32 fahrenheit to 0 celsius', function() {
+      assert.equal(0, convert.fToC(32));
+    });
+    it('should return undefined if no temperature is input', function() {
+      assert.equal(undefined, convert.fToC());
     });
   });
 });

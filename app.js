@@ -6,12 +6,8 @@ convert.cToF = function(celsius) {
 }
 
 convert.fToC = function(fahrenheit) {
-  if(!fahrenheit) return undefined;
+  if(fahrenheit === undefined) return undefined;
   return (fahrenheit - 32) * 5 / 9;
 }
 
 module.exports = convert;
-
-console.log(convert.cToF(0));
-console.log(convert.fToC(45));
-console.log(convert.fToC());
