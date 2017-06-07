@@ -21,7 +21,7 @@ describe('Temperature Conversion', function() {
       assert.equal(0, convert.fToC(32));
     });
     it('should return undefined if no temperature is input', function() {
-      assert.equal(undefined, convert.fToC());
+      assert.equal(undefined, convert.fToC('a'));
     });
   });
 });
